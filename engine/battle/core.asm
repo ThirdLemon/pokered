@@ -5288,7 +5288,7 @@ AdjustDamageForMoveType:
 	jr nz, .gotMultiplier
 	ld a, [wDamageMultipliers]
 	and $7F 
-	srl a
+	sla a
 .gotMultiplier
 	add b
 	ld [wDamageMultipliers], a
