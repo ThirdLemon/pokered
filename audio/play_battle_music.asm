@@ -18,7 +18,7 @@ PlayBattleMusic::
 	jr c, .wildBattle
 	cp OPP_LORELEI
 	jr nz, .Elite4Battle
-	cp OPP_Bruno
+	cp OPP_BRUNO
 	jr nz, .Elite4Battle
 	cp OPP_AGATHA
 	jr nz, .Elite4Battle
