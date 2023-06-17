@@ -127,7 +127,7 @@ MainMenu:
 InitOptions:
 	ld a, TEXT_DELAY_FAST
 	ld [wLetterPrintingDelayFlags], a
-	ld a, TEXT_DELAY_MEDIUM
+	ld a, TEXT_DELAY_FAST | 1 << BIT_BATTLE_SHIFT
 	ld [wOptions], a
 	ret
 
