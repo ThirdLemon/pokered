@@ -178,5 +178,6 @@ Moves:
 	move DRAGONBREATH, PARALYZE_SIDE_EFFECT2,       70, DRAGON,       100, 20
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 10
 	move SLUDGE,       POISON_SIDE_EFFECT2,         90, POISON,       100, 20
+	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

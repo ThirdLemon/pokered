@@ -173,7 +173,8 @@
 	const DRAGONBREATH ; a5
 	const SHADOW_BALL  ; a6
 	const SLUDGE_BOMB  ; a7
-	const STRUGGLE     ; a8
+	const MEGAHORN     ; a8
+	const STRUGGLE     ; a9
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

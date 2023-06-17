@@ -167,6 +167,7 @@ AttackAnimationPointers:
 	dw DragonBreathAnim
 	dw ShadowBallAnim
 	dw SludgeBombAnim
+	dw MegahornAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -380,6 +381,7 @@ FuryAttackAnim:
 	battle_anim NO_MOVE, SUBANIM_0_HORN_JAB_THRICE, 0, 2
 	db -1 ; end
 
+MegahornAnim:
 HornDrillAnim:
 	battle_anim HORN_DRILL, SUBANIM_1_STAR_BIG, 1, 2
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
