@@ -3,7 +3,7 @@
 	db  20,  10,  55,  80,  20
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db GHOST, GHOST ; type
 	db 255 ; catch rate
 	db 20 ; base exp
 
